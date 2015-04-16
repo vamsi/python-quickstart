@@ -9,7 +9,18 @@ The Basics
 
 Installation Instructions
 -------------------------
+Python runs mostly on all modern operating systems.
 
+Windows - http://docs.python-guide.org/en/latest/starting/install/win/
+(http://docs.python-guide.org/en/latest/starting/install/win/)
+
+
+GNU/Linux - http://docs.python-guide.org/en/latest/starting/install/linux/
+(http://docs.python-guide.org/en/latest/starting/install/linux/)
+
+
+Mac OSX - http://docs.python-guide.org/en/latest/starting/install/osx/
+(http://docs.python-guide.org/en/latest/starting/install/osx/)
 
 
 
@@ -51,3 +62,18 @@ the directory where you saved the file before doing it.
     VamsiVihar:desktop ~$ python hello.py
     hello, world!
     VamsiVihar:desktop ~$
+
+
+
+
+Dynamically Typed
+-----------------
+
+
+
+Variables
+---------
+
+
+Assignment
+----------

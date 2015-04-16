@@ -71,6 +71,35 @@ Strings
 
 Lists
 ------
+The most basic data structure in Python is the sequence.
+
+Each element of a sequence is assigned a number - its position or index.
+
+The first index is zero, the second index is one,and so forth.
+
+Python has six built-in types of sequences,but the most common ones are lists and tuples.
+
+The list is a most versatile datatype available in Python.
+
+
+The list of items should be enclosed in square brackets[] so that Python understands that you are specifying a list.
+
+
+The items in the list should be seperated by comma.
+
+
+The "empty list" is just an empty pair of brackets [ ].
+
+
+Good thing about a list is that items in a list need not all have the same type.
+
+
+Once you have created a list, you can add, remove or search for items in the list.
+
+
+Since we can add and remove items, we say that a list is a "mutable" data type i.e. this type can be altered.
+
+
 
 ::
 
@@ -106,7 +135,30 @@ Lists
 
 Tuples
 ------
+Tuples are sequences, just like lists.
 
+
+The only difference is that tuples can't be changed i.e., tuples are immutable and tuples use parentheses
+whereas lists are mutable and use square brackets.
+
+
+Creating a tuple is as simple as putting different comma-separated values and optionally you can put these comma-separated values between parentheses also.
+
+
+Tuples are pretty easy to make. You give your tuple a name, then after that the list of values it will carry.
+
+
+We can access the items in the tuple by specifying the item’s position within a pair of square brackets just like we did for lists.
+This is called the "indexing operator".
+
+
+For example,here we have created a variable "team" which consists of a tuple of items.
+
+
+"len" function can be used to get the length of the tuple. This also indicates that a tuple is a "sequence" as well.
+
+
+Now if we just give the variable name "team" then we will get all the set of elements in tuple.
 
 ::
 
@@ -166,8 +218,8 @@ You can create dictionary in the following way as well:
 
 ::
 
-  dict1 = { 'abc': 456 };
-  dict2 = { 'abc': 123, 98.6: 37 };
+    dict1 = { 'abc': 456 };
+    dict2 = { 'abc': 123, 98.6: 37 };
 
 
 Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is
@@ -175,6 +227,8 @@ enclosed in curly braces.
 
 
 An empty dictionary without any items is written with just two curly braces, like this: {}.
+
+
 Keys are unique within a dictionary while values may not be.
 
 

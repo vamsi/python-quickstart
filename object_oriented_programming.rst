@@ -5,6 +5,24 @@
 Object Oriented Programming
 ===========================
 
+A Quick Glance on the Basics on Object Orientation Terminology
+
+class : A class is the blueprint from which individual objects are created.
+
+object : A real World entity which have state and behavior
+
+
+
+Lets create a class Person with a class method ``say`` in the class
+
+::
+
+    class Person():
+        def say(self):
+            print("Hello")
+
+
+Now lets create an object instance for the class person
 
 ::
 
@@ -14,6 +32,8 @@ Object Oriented Programming
 
     jackman = Person()
     jackman.say()
+
+Extending the plot further lets us create two method ``hello`` , ``bye`` taking in arguments
 
 ::
 
@@ -28,7 +48,12 @@ Object Oriented Programming
     jackman.say("lee")
     jackman.bye("edison")
 
+.. note ::
+
+    ``self``
+
 Constructors
+
 
 ::
 

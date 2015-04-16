@@ -6,7 +6,7 @@ Statements
 
 
 Table for Quick Glance of Conditional and Control Flow Statements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 
 +--------------------------+-------------------------+
