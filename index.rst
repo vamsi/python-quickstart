@@ -5,9 +5,8 @@
 Explore Python
 ==============
 
-
-Contents
---------
+Table of Contents
+------------------
 
 .. toctree::
    :maxdepth: 2
@@ -18,7 +17,7 @@ Contents
    statements
    functions
    modules
-   object_oriented_python
+   object_oriented_programming
    conclusion
 
 
