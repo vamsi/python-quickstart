@@ -6,9 +6,7 @@ Object Oriented Programming
 ===========================
 
 
-
-
-.. code:: python
+::
 
     class Person():
         def say(self):
@@ -17,7 +15,7 @@ Object Oriented Programming
     jackman = Person()
     jackman.say()
 
-.. code:: python
+::
 
     class Person():
 
@@ -32,7 +30,7 @@ Object Oriented Programming
 
 Constructors
 
-.. code:: python
+::
 
     class Person():
         def __init__(self,name,year_of_birth):
@@ -51,7 +49,7 @@ Constructors
 
 Classes And Objects
 
-.. code:: python
+::
 
     class BankAccount:          # Creating A Class, Object & Consuctor
         def __init__(self):
@@ -72,7 +70,7 @@ Classes And Objects
     b.withdraw(10)
     a.withdraw(10)
 
-.. code:: bash
+::
 
     $python BankAccount.py
     100
@@ -82,7 +80,7 @@ Classes And Objects
 
 Single Inheritance
 
-.. code:: python
+::
 
     class Parent():
         def a(self):
@@ -100,7 +98,7 @@ Single Inheritance
     print c.a(), d.a()
     print c.b(), d.b()
 
-.. code:: bash
+::
 
     $python SingleInheritance.py
     Parent, Parent
@@ -108,7 +106,7 @@ Single Inheritance
 
 Multiple Inheritance
 
-.. code:: python
+::
 
     class A:
         def m(self):
@@ -132,7 +130,7 @@ Multiple Inheritance
     x = D()
     x.m()
 
-.. code:: bash
+::
 
     $python MultipleInheritance.py
     m of D called
@@ -142,7 +140,7 @@ Multiple Inheritance
 
 Super()
 
-.. code:: python
+::
 
     class A:              # The Method 'm' Of D Should Execute The Code Of 'm' Of B, C and A as well  By Using Super()
         def m(self):
@@ -166,7 +164,7 @@ Super()
     x = D()
     x.m()
 
-.. code:: bash
+::
 
     $python Super.py
     m of D called
@@ -176,7 +174,7 @@ Super()
 
 Super() And Constructor
 
-.. code:: python
+::
 
     class A:
         def __init__(self):
@@ -206,7 +204,7 @@ Super() And Constructor
 
     d = D()
 
-.. code:: bash
+::
 
     $python Super1.py
     init of A
@@ -224,7 +222,7 @@ Super() And Constructor
 
 Exception Handling
 
-.. code:: python
+::
 
     r = [7, 54, 27, 6]
 
@@ -242,7 +240,7 @@ Exception Handling
     # This raises the KeyError since d-key is not present in the list
     print(s[d])
 
-.. code:: bash
+::
 
     $python Exception.py
     7
@@ -250,7 +248,7 @@ Exception Handling
     2
     KeyError: 'd'
 
-.. code:: python
+::
 
     try:
         r = [7, 54, 27, 6]
@@ -261,13 +259,13 @@ Exception Handling
         print("End Of Index Error")
 
 
-.. code:: bash
+::
 
     $python indexerror.py
     list index out of range
     End Of Index Error
 
-.. code:: python
+::
 
     try:
         s = {'a':1, 'b':2, 'c'=3}
@@ -278,7 +276,7 @@ Exception Handling
         print("End Of Key Error")
 
 
-.. code:: bash
+::
 
     $python keyerror.py
     'd'

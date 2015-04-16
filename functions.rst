@@ -12,7 +12,8 @@ Simple Functions
 
 Illustrations
 -------------
-.. code:: python
+
+::
 
     # Function Adding Numbers and Concatination of Strings
 
@@ -24,7 +25,7 @@ Illustrations
 
     add(3,5) # Add Function is Two Numbers Here
 
-.. code:: python
+::
 
     # Functions Illustrating Fibonacci
 
@@ -39,7 +40,7 @@ Illustrations
 
     print(fibonacci(7)) # Printing the result by passing the variable 3 to the Function fibonacci
 
-.. code:: python
+::
 
     # Function to say hello on call the function
 
@@ -49,7 +50,7 @@ Illustrations
 
     hello() # calling the function hello
 
-.. code:: python
+::
 
     # Function calculating the square of a number
 

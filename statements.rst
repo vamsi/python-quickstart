@@ -6,6 +6,7 @@ Statements
 
 
 Table for Quick Glance of Conditional and Control Flow Statements
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 +--------------------------+-------------------------+
@@ -77,6 +78,8 @@ if python:
 
 for loop in "python":
 ---------------------
+
+
 The "for" statement in Python differs a bit from what you may be used to in C.
 Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user
 the ability to define both the iteration step and halting condition (as C),the for loop in python works a bit different.
@@ -92,6 +95,7 @@ following sequence object, which is stepped through.
 
 
 The general syntax of a "for" loop in "python" is as follows:
+
 
 ::
 
@@ -121,9 +125,12 @@ If you do need to iterate over a sequence of numbers, the built-in function rang
 
 The built-in function range() is the right function to iterate over a sequence of numbers.
 
+
 It generates an iterator of arithmetic progressions.
 
+
 range(n) generates an iterator to progress the integer numbers starting with 1 and ending with (n -1).
+
 
 To produce the list with these numbers, we have to cast rang() with the list().
 range() can be called with two arguments:
