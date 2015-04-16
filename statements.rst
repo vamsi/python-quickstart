@@ -76,7 +76,7 @@ if python:
 
 
 for loop in "python":
---------------------
+---------------------
 The "for" statement in Python differs a bit from what you may be used to in C.
 Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user
 the ability to define both the iteration step and halting condition (as C),the for loop in python works a bit different.
@@ -111,7 +111,7 @@ For each item the loop body is executed.
 
 ::
 
-    
+
 
 The range() Function:
 ---------------------
