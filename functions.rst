@@ -21,7 +21,7 @@ We use def keyword to define a function. General syntax is like
 
    ￼￼￼￼￼def function name(params):
     statement1
-    stamenent2
+    statement2
     .....
 
 
@@ -77,7 +77,7 @@ Let us write a Function to add two strings and add two numbers
 Output
 
 
-Functions Returing Values
+Functions Returning Values
 
 
 Recursions

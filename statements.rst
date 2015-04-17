@@ -42,6 +42,8 @@ Let’s start by getting the computer to make a simple decision. For an easy exa
 
 
 Output
+
+
 ::
 
     $ greaterlesser.py
@@ -50,6 +52,8 @@ Output
     $ greaterlesser.py
     Enter a,b values:6 27
     The largest number is 27
+
+
 ::
 
     print("enter any number:")
@@ -61,6 +65,7 @@ Output
             print "The entered number",num,"is odd"
     else:
         print("Enter positive number")
+
 
 
 ::
@@ -83,7 +88,9 @@ Simple One Way Decision
     if <condition>:
         <statements>
 
+
 ::
+
     def main():
         print "This program finds the real solutions to a quadratic\n"
         a, b, c = input("Please enter the coefficients (a, b, c): ")
@@ -98,6 +105,8 @@ Simple One Way Decision
 
 
 Two-Way Decisions
+
+
 ::
     if <condition>:
         <statements>
@@ -158,8 +167,6 @@ Multi-Way Decisions
 
 
 
-
-
 for loop in "python":
 ---------------------
 
@@ -184,7 +191,7 @@ The general syntax of a "for" loop in "python" is as follows:
 ::
 
     for variable in sequence:
-       statements(s)
+        statements(s)
 
 If a sequence contains an expression list, it is evaluated first.Then, the first item in the sequence is assigned to the iterating variable 'variable'.
 Next, the statements block is executed.
@@ -197,27 +204,20 @@ The items of the sequence object are assigned one after the other to the loop va
 For each item the loop body is executed.
 
 
-::
-
-
 
 The range() Function:
 
 
 If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy.
-
-
 The built-in function range() is the right function to iterate over a sequence of numbers.
 
 
-It generates an iterator of arithmetic progressions.
-
-
-range(n) generates an iterator to progress the integer numbers starting with 1 and ending with (n -1).
+It generates an iterator of arithmetic progressions.range(n) generates an iterator to progress the integer numbers starting with 1 and ending with (n -1).
 
 
 To produce the list with these numbers, we have to cast rang() with the list().
 range() can be called with two arguments:
+
 
 ::
 

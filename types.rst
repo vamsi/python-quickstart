@@ -67,6 +67,7 @@ Example (save it as strings.py)
 Output
 
 ::
+
     $ python strings.py
     Hello World
     Python Programming
@@ -74,10 +75,11 @@ Output
 
 
 .. note::
+
     Guess the use of single Quotes and Double Quotes
 
 
-Slice and the len
+Slice , len
 ~~~~~~~~~~~~~~~~~~
 
 The handy "slice" syntax (below) also works to extract any substring from a string.
@@ -124,33 +126,20 @@ Output
 
 Lists
 ------
-The most basic data structure in Python is the sequence.
-
-Each element of a sequence is assigned a number - its position or index.
-
+The most basic data structure in Python is the sequence.Each element of a sequence is assigned a number - its position or index.
 The first index is zero, the second index is one,and so forth.
 
-Python has six built-in types of sequences,but the most common ones are lists and tuples.
 
 The list is a most versatile datatype available in Python.
 
 
-The list of items should be enclosed in square brackets[] so that Python understands that you are specifying a list.
-
-
-The items in the list should be seperated by comma.
-
-
-The "empty list" is just an empty pair of brackets [ ].
+The list of items should be enclosed in square brackets[] so that Python understands that you are specifying a list.The items in the list should be seperated by comma.The "empty list" is just an empty pair of brackets [ ].
 
 
 Good thing about a list is that items in a list need not all have the same type.
 
 
-Once you have created a list, you can add, remove or search for items in the list.
-
-
-Since we can add and remove items, we say that a list is a "mutable" data type i.e. this type can be altered.
+Once you have created a list, you can add, remove or search for items in the list.Since we can add and remove items, we say that a list is a "mutable" data type i.e. this type can be altered.
 
 
 Example (save it as lists.py)
@@ -169,6 +158,7 @@ Example (save it as lists.py)
     print(vegetables)
 
 ::
+
     $ python list.py
     ['Mango','Apple','Banana','Orange']
     ['Brinjal','Potato','Cucumber','Cabbage','Peas']
@@ -195,7 +185,7 @@ Example (save it as list_access.py)
 
     print(len(fruits))
     print(len(vegtables))
-        
+
 
 
 Tuples
@@ -327,11 +317,12 @@ To access dictionary elements, you can use the familiar square brackets along wi
 Following is a simple example:
 
 ::
+
     #!/usr/bin/python
 
     dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'};
 
-    ]print "dict['Name']: ", dict['Name'];
+    print "dict['Name']: ", dict['Name'];
     print "dict['Age']: ", dict['Age'];
 
 
@@ -345,4 +336,4 @@ When the above code is executed, it produces the following result:
 
 
 Files
-------
+-----
