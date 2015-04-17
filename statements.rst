@@ -223,6 +223,7 @@ range() can be called with two arguments:
 
     range(begin,end)
 
+
 ::
 
     print("Enter any num:")
@@ -231,6 +232,7 @@ range() can be called with two arguments:
     for i in range(1,num):
         fact = fact*i
     print "Factorial of",num,"is:",fact
+
 
 ::
 
