@@ -6,13 +6,50 @@ Types
 
 Numbers
 -------
+Python can handle normal long integers (max length determined based on the operating system, just like C),
+
+Python long integers (max length dependent on available memory), floating point numbers (just like C doubles), octal and hex numbers, and complex numbers (numbers with an imaginary component).
+
+Generic C++ example
+
 ::
+
+    int a = 3; //inline initialization of integer
+    float b; //sequential initialization of floating point number
+    b = 4.0f;
+
+
+
+Generic Python example
+
+::
+
+    a = 3    # Taken as Int
+    b = 4.0  # Taken as Float
+
+.. note::
+
+   To verify the type that's assumed by the your interpreter use ``type`` function
+   Eg: ``type(var)`` this returns the type of variable
 
 
 
 
 Strings
 -------
+
+Python strings are "immutable" sequences which means they cannot be changed after they are created (Java strings also use this immutable style). Since strings can't be changed, we construct *new* strings as we go to represent computed values.
+
+So for example the expression ('hello' + 'there') takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.
+
+Characters in a string can be accessed using the standard [ ] syntax, and like Java and C++,
+
+Python uses zero-based indexing, so if str is 'hello' str[1] is 'e'.
+
+If the index is out of bounds for the string, Python raises an error.
+
+Example (save it as strings.py)
+
 ::
 
     #Using Single Quotes
@@ -27,6 +64,7 @@ Strings
     print(y)
 
 
+Output
 
 ::
     $ python strings.py
@@ -35,7 +73,21 @@ Strings
 
 
 
-#### Accessing Of The Strings
+.. note::
+    Guess the use of single Quotes and Double Quotes
+
+
+Slice and the len
+~~~~~~~~~~~~~~~~~~
+
+The handy "slice" syntax (below) also works to extract any substring from a string.
+
+The len(string) function returns the length of a string.
+
+The [ ] syntax and the len() function actually work on any sequence type -- strings, lists, etc
+
+
+Example (save it as string_access.py)
 
 ::
 
@@ -58,6 +110,7 @@ Strings
     print x[-3]
 
 
+Output
 
 ::
 
@@ -100,7 +153,7 @@ Once you have created a list, you can add, remove or search for items in the lis
 Since we can add and remove items, we say that a list is a "mutable" data type i.e. this type can be altered.
 
 
-
+Example (save it as lists.py)
 ::
 
     # Let this be our First List
@@ -115,7 +168,13 @@ Since we can add and remove items, we say that a list is a "mutable" data type i
     # Printing Our Second List
     print(vegetables)
 
+::
+    $ python list.py
+    ['Mango','Apple','Banana','Orange']
+    ['Brinjal','Potato','Cucumber','Cabbage','Peas']
 
+
+Example (save it as list_access.py)
 ::
 
     # Let this be our First List
@@ -131,6 +190,12 @@ Since we can add and remove items, we say that a list is a "mutable" data type i
     print(vegetables[4])
     print(friuts[1])
     print(friuts[3])
+
+    # Using len() on lists
+
+    print(len(fruits))
+    print(len(vegtables))
+        
 
 
 Tuples

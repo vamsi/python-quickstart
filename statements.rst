@@ -28,10 +28,28 @@ Table for Quick Glance of Conditional and Control Flow Statements
 if python:
 ----------
 
+Let’s start by getting the computer to make a simple decision. For an easy example,we make a program to find the largest of two numbers
 
 
 
+::
 
+    a,b = input("Enter a,b values:")
+    if(a>b):
+        print "The largest number is",a
+    else:
+        print "The largest number is",b
+
+
+Output
+::
+
+    $ greaterlesser.py
+    Enter a,b values:54 7
+    The largest number is 54
+    $ greaterlesser.py
+    Enter a,b values:6 27
+    The largest number is 27
 ::
 
     print("enter any number:")
@@ -56,22 +74,88 @@ if python:
 
 
 
-::
 
-    a,b = input("Enter a,b values:")
-    if(a>b):
-        print "The largest number is",a
+
+
+Simple One Way Decision
+
+::
+    if <condition>:
+        <statements>
+
+::
+    def main():
+        print "This program finds the real solutions to a quadratic\n"
+        a, b, c = input("Please enter the coefficients (a, b, c): ")
+        dicrim = b * b - 4 * a * c
+        if discrim >= 0:
+            discRoot = math.sqrt(discrim)
+            root1 = (-b + discRoot) / (2 * a)
+            root2 = (-b - discRoot) / (2 * a)
+            print "\nThe solutions are:", root1, root2
+
+
+
+
+Two-Way Decisions
+::
+    if <condition>:
+        <statements>
     else:
-        print "The largest number is",b
+        <statements>
+
+
+        import math
+
+        def main():
+            print "This program finds the real solutions to a quadratic\n" a, b, c = input("Please enter the coefficients (a, b, c): ")
+            discrim = b * b - 4 * a * c
+            if discrim < 0:
+                print "\nThe equation has no real roots!"
+            else:
+                discRoot = math.sqrt(b * b - 4 * a * c)
+                root1 = (-b + discRoot) / (2 * a)
+                root2 = (-b - discRoot) / (2 * a)
+                print "\nThe solutions are:", root1, root2
+
+
+Multi-Way Decisions
+
+::
+    if <condition1>:
+        <case1 statements>
+    elif <condition2>:
+        <case2 statements>
+    elif <condition3>:
+        <case3 statements>
+    ...
+    else:
+        <default statements>
+
+
+
 
 ::
 
-    $ greaterlesser.py
-    Enter a,b values:54 7
-    The largest number is 54
-    $ greaterlesser.py
-    Enter a,b values:6 27
-    The largest number is 27
+      # quadratic4.py
+      import math
+
+      def main():
+        print "This program finds the real solutions to a quadratic\n"
+        a, b, c = input("Please enter the coefficients (a, b, c): ")
+        discrim = b * b - 4 * a * c
+        if discrim < 0:
+            print "\nThe equation has no real roots!"
+        elif discrim == 0:
+            root = -b / (2 * a)
+            print "\nThere is a double root at", root
+        else:
+            discRoot = math.sqrt(b * b - 4 * a * c) root1 = (-b + discRoot) / (2 * a)
+            root2 = (-b - discRoot) / (2 * a)
+            print "\nThe solutions are:", root1, root2
+
+
+
 
 
 
@@ -118,7 +202,7 @@ For each item the loop body is executed.
 
 
 The range() Function:
-^^^^^^^^^^^^^^^^^^^^^
+
 
 If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy.
 
@@ -224,10 +308,3 @@ Such a loop is called an infinite loop.
 
 An infinite loop might be useful in client/server programming where the server needs to run continuously
 so that client programs can communicate with it as and when required.
-
-
-pass
-----
-
-break, continue
----------------

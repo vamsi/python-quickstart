@@ -68,12 +68,33 @@ the directory where you saved the file before doing it.
 
 Dynamically Typed
 -----------------
+Python is a dynamic-typed language. Many other languages are static typed, such as C/C++ and Java.
 
+A static typed language requires the programmer to explicitly tell the computer what type of “thing” each data value is.
+
+For example, in C if you had a variable that was to contain the price of something, you would have to declare the variable as a “float” type.
+
+This tells the compiler that the only data that can be used for that variable must be a floating point number, i.e. a number with a decimal point.
+
+If any other data value was assigned to that variable, the compiler would give an error when trying to compile the program.
 
 
 Variables
 ---------
 
+
+Indentation
+-----------
+Python forces the user to program in a structured format.
+
+
+Code blocks are determined by the amount of indentation used.
+
+
+As you’ll recall from the Comparison of Programming Languages chapter, brackets and semicolons were used to show code grouping or end-of-line termination for the other languages.
+
+
+Python doesn’t require those; indentation is used to signify where each code block starts and ends.
 
 Assignment
 ----------
