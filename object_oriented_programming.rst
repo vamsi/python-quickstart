@@ -33,6 +33,7 @@ Now lets create an object instance for the class person
     jackman = Person()
     jackman.say()
 
+
 Extending the plot further lets us create two method ``hello`` , ``bye`` taking in arguments
 
 ::
@@ -40,9 +41,11 @@ Extending the plot further lets us create two method ``hello`` , ``bye`` taking 
     class Person():
 
         def hello(self,name):
-            print("Hello %s How are you ?")
+            self.name = name
+            print("Hello %s How are you ?"(self.name))
         def bye(self,name):
-            print("Nice Meeting You %s"%(name))
+            self.name = name
+            print("Nice Meeting You %s"%(self.name))
 
     jackman = Person()
     jackman.say("lee")
@@ -50,10 +53,20 @@ Extending the plot further lets us create two method ``hello`` , ``bye`` taking 
 
 .. note ::
 
-    ``self``
+    ``self`` is a default argument for all instance method
+
+It's all vague repeating the instance variable for every class method so lets create an object with the instance variables.So, its now time to work with constructors
+
+
+
 
 Constructors
+------------
 
+The Constructors in Python are written under a special method ``__init__``
+
+So lets now write a constructor for an object. In this example lets create a Object with instance variables name, year_of_birth.
+ This process of writing a constructor in a class eliminates the repeating of instance variables for every instance method
 
 ::
 
@@ -74,6 +87,10 @@ Constructors
 
 Classes And Objects
 
+
+Lets now to understand more about the ``self`` variable and __init__ method (Constructor) by looking at the example below
+
+Example (save it as bank_account.py)
 ::
 
     class BankAccount:          # Creating A Class, Object & Consuctor
@@ -90,14 +107,14 @@ Classes And Objects
 
     a = BankAccount()       # Here Instance Variable 'a' Calls The Class BankAccount
     b = BankAccount()       # Here Instance Variable 'b' Calls The Class BankAccount
-    a.deposit(100)          # 'a' Aceess The Methods In The Class "BankAccount"
-    b.deposit(50)           # 'b' Also Aceess The Methods In The Class "BankAccount"
+    a.deposit(100)          # 'a' Access The Methods In The Class "BankAccount"
+    b.deposit(50)           # 'b' Also Access The Methods In The Class "BankAccount"
     b.withdraw(10)
     a.withdraw(10)
 
 ::
 
-    $python BankAccount.py
+    $python bank_account.py
     100
     50
     40
@@ -105,6 +122,9 @@ Classes And Objects
 
 Single Inheritance
 
+The Inherited class is taken as a argument to the child class.To understand clearly parent class is named ``Parent`` and child class that inherits parent class is named ``Child`` Class.
+
+Example (save it as SingleInheritance.py)
 ::
 
     class Parent():
@@ -131,6 +151,10 @@ Single Inheritance
 
 Multiple Inheritance
 
+This Example illustration the way classes are inherited in Python
+
+Example (save it as MultipleInheritance.py)
+
 ::
 
     class A:
@@ -155,6 +179,7 @@ Multiple Inheritance
     x = D()
     x.m()
 
+Output
 ::
 
     $python MultipleInheritance.py
@@ -164,6 +189,8 @@ Multiple Inheritance
     m of A called
 
 Super()
+
+Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.
 
 ::
 
@@ -197,55 +224,17 @@ Super()
     m of B called
     m of A called
 
-Super() And Constructor
-
-::
-
-    class A:
-        def __init__(self):
-            print("init of A")
-
-    class B(A):
-        def __init__(self):
-            print("init of B")
-            super().__init__()
-
-    class C(A):
-        def __init__(self):
-            print("init of C")
-            super().__init__()
-
-
-    class D(B,C):
-        def __init__(self):
-            print("init of D")
-            super().__init__()
-
-    a = A()
-
-    b = B()
-
-    c = C()
-
-    d = D()
-
-::
-
-    $python Super1.py
-    init of A
-
-    init of B
-    init of A
-
-    init of C
-    init of A
-
-    init of D
-    init of B
-    init of C
-    init of A
 
 Exception Handling
+------------------
+
+
+Handling Various Exceptions in Python.
+
+Look at the following code and observe when the Exceptions are raised.
+
+
+Example (save it as exception.py)
 
 ::
 
@@ -265,13 +254,21 @@ Exception Handling
     # This raises the KeyError since d-key is not present in the list
     print(s[d])
 
+
+Output
 ::
 
-    $python Exception.py
+    $python exception.py
     7
     IndexError: List index out of range
     2
     KeyError: 'd'
+
+
+Now let's Handle the above expections raised in the above examples
+
+
+Example (save it as indexerror.py)
 
 ::
 
@@ -283,13 +280,15 @@ Exception Handling
         finally:
         print("End Of Index Error")
 
-
+Output
 ::
 
     $python indexerror.py
     list index out of range
     End Of Index Error
 
+
+Example (save it as keyerror.py)
 ::
 
     try:
@@ -300,9 +299,13 @@ Exception Handling
     finally:
         print("End Of Key Error")
 
-
+Output
 ::
 
     $python keyerror.py
     'd'
     End Of Key Error
+
+.. note::
+
+    The exceptions in the above programs are purposefully raised to illustrate Exception Handling

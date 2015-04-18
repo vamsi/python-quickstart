@@ -25,8 +25,13 @@ Table for Quick Glance of Conditional and Control Flow Statements
 
 
 
-if python:
-----------
+Conditionals
+------------
+
+if Tests:
+~~~~~~~~~
+
+One of the most common control structures you’ll use, and run into in other programs, is the if conditional block. Simply put, you ask a yes or no question; depending on the answer different things happen.
 
 Let’s start by getting the computer to make a simple decision. For an easy example,we make a program to find the largest of two numbers
 
@@ -42,8 +47,6 @@ Let’s start by getting the computer to make a simple decision. For an easy exa
 
 
 Output
-
-
 ::
 
     $ greaterlesser.py
@@ -53,6 +56,7 @@ Output
     Enter a,b values:6 27
     The largest number is 27
 
+Example (save it as evenodd.py)
 
 ::
 
@@ -67,7 +71,7 @@ Output
         print("Enter positive number")
 
 
-
+Output
 ::
 
     $ python evenodd.py
@@ -96,20 +100,7 @@ Output
 |                        |                        |                        |
 +------------------------+------------------------+------------------------+
 
-
-
-
-
-Simple One Way Decision
-
-
-
-
-
-
-
-
-
+As we already dealt with some Simple decision and Two way decision This example shows the way for the Multiway decision handling in Python
 
 ::
 
@@ -133,9 +124,11 @@ Simple One Way Decision
 
 
 
+Looping
+-------
 
 for loop in "python":
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 
 The "for" statement in Python differs a bit from what you may be used to in C.
@@ -173,7 +166,7 @@ For each item the loop body is executed.
 
 
 The range() Function:
-
+~~~~~~~~~~~~~~~~~~~~~
 
 If you do need to iterate over a sequence of numbers, the built-in function range() comes in handy.
 The built-in function range() is the right function to iterate over a sequence of numbers.
@@ -213,7 +206,7 @@ range() can be called with two arguments:
 The above call produces the list iterator of numbers starting with begin (inclusive) and ending with one less than the number "end".
 
 while python:
--------------
+~~~~~~~~~~~~~
 
 A while loop statement in Python programming language repeatedly executes a target statement as long as a given condition is true.
 While loops, like the ForLoop, are used for repeating sections of code - but unlike a for loop, the while
@@ -268,7 +261,7 @@ after the while loop will be executed.
 
 
 The Infinite Loop:
-
+~~~~~~~~~~~~~~~~~~
 
 A loop becomes infinite loop if a condition never becomes false.
 You must use caution when using while loops because of the possibility that this condition never resolves to a false value.
