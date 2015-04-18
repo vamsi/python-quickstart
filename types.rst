@@ -86,7 +86,7 @@ The handy "slice" syntax (below) also works to extract any substring from a stri
 
 The len(string) function returns the length of a string.
 
-The [ ] syntax and the len() function actually work on any sequence type -- strings, lists, etc
+The ``[ ]`` syntax and the ``len()`` function actually work on any sequence type -- strings, lists, etc
 
 
 Example (save it as string_access.py)

@@ -81,7 +81,27 @@ If any other data value was assigned to that variable, the compiler would give a
 
 Variables
 ---------
+In Python there are no declarations. The existence of a variable begins with a statement that binds the variable, or, in other words, sets a name to hold a reference to some object.
 
+.. note::
+    Everything thing is a object in Python
+
+
+Assignment
+----------
+
+Assignment statements can be plain or augmented.
+
+Assignment to a variable ``(e.g.,name=value)`` is how you createa newvariable or rebind an existing variable to a new value.
+
+
+The assignment statement in the simplest form has the syntax:
+
+::
+    target = expression
+
+
+``target`` is your variable to which holds the ``value`` of the ``expression``
 
 Indentation
 -----------
@@ -95,6 +115,3 @@ As you’ll recall from the Comparison of Programming Languages chapter, bracket
 
 
 Python doesn’t require those; indentation is used to signify where each code block starts and ends.
-
-Assignment
-----------
