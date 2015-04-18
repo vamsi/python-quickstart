@@ -18,6 +18,7 @@ Python has lot of builtin functions.
 We use def keyword to define a function. General syntax is like
 
 ::
+
     def functionname(params):
         statement1
         statement2

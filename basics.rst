@@ -11,16 +11,16 @@ Installation Instructions
 -------------------------
 Python runs mostly on all modern operating systems.
 
-Windows - http://docs.python-guide.org/en/latest/starting/install/win/
-(http://docs.python-guide.org/en/latest/starting/install/win/)
+Windows - `http://docs.python-guide.org/en/latest/starting/install/win/
+<http://docs.python-guide.org/en/latest/starting/install/win/>`_
 
 
-GNU/Linux - http://docs.python-guide.org/en/latest/starting/install/linux/
-(http://docs.python-guide.org/en/latest/starting/install/linux/)
+GNU/Linux - `http://docs.python-guide.org/en/latest/starting/install/linux/
+<http://docs.python-guide.org/en/latest/starting/install/linux/>`_
 
 
-Mac OSX - http://docs.python-guide.org/en/latest/starting/install/osx/
-(http://docs.python-guide.org/en/latest/starting/install/osx/)
+Mac OSX - `http://docs.python-guide.org/en/latest/starting/install/osx/
+<http://docs.python-guide.org/en/latest/starting/install/osx/>`_
 
 
 
