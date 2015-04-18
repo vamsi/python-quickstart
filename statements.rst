@@ -78,78 +78,45 @@ Output
     The entered number 54 is even
 
 
++------------------------+------------------------+------------------------+
+|  Simple Decision       |  Two Way Decision      |  Mutliway Decision     |
++========================+========================+========================+
+|::                      | ::                     | ::                     |
+|                        |                        |                        |
+|    if <condition>:     |    if <condition>:     |     if <condition1>:   |
+|        <statements>    |        <statements>    |         <stametemts>   |
+|                        |    else:               |     elif <condition2>: |
+|                        |        <statements>    |         <statements>   |
+|                        |                        |     elif <condition3>: |
+|                        |                        |          <statements>  |
+|                        |                        |     ......             |
+|                        |                        |                        |
+|                        |                        |     else:              |
+|                        |                        |         <statements>   |
+|                        |                        |                        |
++------------------------+------------------------+------------------------+
+
 
 
 
 
 Simple One Way Decision
 
-::
-    if <condition>:
-        <statements>
 
 
+
+
+
+
+
+
+
 ::
+
+    # quadratic4.py
+    import math
 
     def main():
-        print "This program finds the real solutions to a quadratic\n"
-        a, b, c = input("Please enter the coefficients (a, b, c): ")
-        dicrim = b * b - 4 * a * c
-        if discrim >= 0:
-            discRoot = math.sqrt(discrim)
-            root1 = (-b + discRoot) / (2 * a)
-            root2 = (-b - discRoot) / (2 * a)
-            print "\nThe solutions are:", root1, root2
-
-
-
-
-Two-Way Decisions
-
-
-::
-    if <condition>:
-        <statements>
-    else:
-        <statements>
-
-
-        import math
-
-        def main():
-            print "This program finds the real solutions to a quadratic\n" a, b, c = input("Please enter the coefficients (a, b, c): ")
-            discrim = b * b - 4 * a * c
-            if discrim < 0:
-                print "\nThe equation has no real roots!"
-            else:
-                discRoot = math.sqrt(b * b - 4 * a * c)
-                root1 = (-b + discRoot) / (2 * a)
-                root2 = (-b - discRoot) / (2 * a)
-                print "\nThe solutions are:", root1, root2
-
-
-Multi-Way Decisions
-
-::
-    if <condition1>:
-        <case1 statements>
-    elif <condition2>:
-        <case2 statements>
-    elif <condition3>:
-        <case3 statements>
-    ...
-    else:
-        <default statements>
-
-
-
-
-::
-
-      # quadratic4.py
-      import math
-
-      def main():
         print "This program finds the real solutions to a quadratic\n"
         a, b, c = input("Please enter the coefficients (a, b, c): ")
         discrim = b * b - 4 * a * c

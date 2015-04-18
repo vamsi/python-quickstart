@@ -19,7 +19,7 @@ We use def keyword to define a function. General syntax is like
 
 ::
 
-   ￼￼￼￼￼def function name(params):
+   ￼￼￼￼￼def functionname(params):
     statement1
     statement2
     .....
