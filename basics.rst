@@ -98,6 +98,7 @@ Assignment to a variable ``(e.g.,name=value)`` is how you createa newvariable or
 The assignment statement in the simplest form has the syntax:
 
 ::
+
     target = expression
 
 

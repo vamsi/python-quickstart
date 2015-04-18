@@ -65,8 +65,7 @@ Constructors
 
 The Constructors in Python are written under a special method ``__init__``
 
-So lets now write a constructor for an object. In this example lets create a Object with instance variables name, year_of_birth.
- This process of writing a constructor in a class eliminates the repeating of instance variables for every instance method
+so lets now write a constructor for an object. In this example lets create a Object with instance variables name, year_of_birth.This process of writing a constructor in a class eliminates the repeating of instance variables for every instance method.
 
 ::
 
