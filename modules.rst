@@ -99,6 +99,7 @@ Go to command promt/temminal and say ``pip install <package_name>``
 Lets now install a great package named ``requests`` and see how we can get the content of a website
 
 ::
+
     pip install requests
 
 
