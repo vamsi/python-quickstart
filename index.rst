@@ -23,13 +23,16 @@ Table of Contents
 Thanks
 ~~~~~~
 
+First of all, I’d like to say thanks two people. When I started this book I was alone. As a part of the python users group activity we were flying across various places to meet people. There I met a few people interestingly. After a period of time out of those few, two people who were unknown to me came forward and helped me in writing drafts and code samples for this miniature. And after all those people Prasanthi and Sindhu were now great friends for me.I’m looking forward to work with them to manage the project into the future.PyQuick wouldn’t be happening if their your support lacks. Thank You Once Again
+
+Another Big Thanks to father, mother and brother who always supported in making my things happen.and thank you for being patient with me during late nights.
 
 
 Formatting
 ~~~~~~~~~~
 
 Footnotes will be used for citations so you don't think I'm making
-things up.  [3]_
+things up.
 
 *Italic text* will be used to denote a file name.
 
