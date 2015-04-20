@@ -92,7 +92,7 @@ Assignment
 
 Assignment statements can be plain or augmented.
 
-Assignment to a variable ``(e.g.,name=value)`` is how you createa newvariable or rebind an existing variable to a new value.
+Assignment to a variable ``(e.g.,name=value)`` is how you create a new variable or rebind an existing variable to a new value.
 
 
 The assignment statement in the simplest form has the syntax:

@@ -78,7 +78,7 @@ Python Package is a collection of all modules connected properly into one form a
 
 PyPI, The Python Package Index maintains the list of Python packages available.
 
-To install pip, securely download get-pip.py, from the url `get-pip<https://bootstrap.pypa.io/get-pip.py>`_
+To install pip, securely download get-pip.py, from the url `get-pip <https://bootstrap.pypa.io/get-pip.py>`_
 
 Then run the following (which may require administrator access):
 

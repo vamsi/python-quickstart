@@ -11,7 +11,6 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   preface
    basics
    types
    statements
@@ -19,6 +18,31 @@ Table of Contents
    modules
    object_oriented_programming
    conclusion
+
+
+Thanks
+~~~~~~
+
+
+
+Formatting
+~~~~~~~~~~
+
+Footnotes will be used for citations so you don't think I'm making
+things up.  [3]_
+
+*Italic text* will be used to denote a file name.
+
+**Bold text** will be used to denote a new or important term.
+
+.. warning::
+
+   Common pitfalls that could cause major problems will be shown in a warning box.
+
+.. note::
+
+   Supplemental information will appear in note boxes.
+
 
 
 License
