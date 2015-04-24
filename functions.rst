@@ -10,7 +10,7 @@ A Function
 Function is small unit of computation which may take arguments and may return values.
 
 
-Function body should be indented like if statement.
+Function body should be **indented** like if statement.
 
 
 Python has lot of builtin functions.
@@ -72,9 +72,10 @@ Output
 Functions Returning Values
 --------------------------
 
-This illustration shows how various function in the python script and how returned objects are assigned to variable
+This illustration shows how various function in the Python script and how returned objects are assigned to variable
 
 Example (save it as func-return.py)
+
 ::
 
     def add(a, b):

@@ -36,6 +36,7 @@ One of the most common control structures you’ll use, and run into in other pr
 Let’s start by getting the computer to make a simple decision. For an easy example,we make a program to find the largest of two numbers
 
 
+Example (save it as greaterlesser.py)
 
 ::
 
@@ -47,12 +48,13 @@ Let’s start by getting the computer to make a simple decision. For an easy exa
 
 
 Output
+
 ::
 
-    $ greaterlesser.py
+    $ python greaterlesser.py
     Enter a,b values:54 7
     The largest number is 54
-    $ greaterlesser.py
+    $ python greaterlesser.py
     Enter a,b values:6 27
     The largest number is 27
 
@@ -72,6 +74,7 @@ Example (save it as evenodd.py)
 
 
 Output
+
 ::
 
     $ python evenodd.py
@@ -120,6 +123,7 @@ As we already dealt with some Simple decision and Two way decision This example 
             discRoot = math.sqrt(b * b - 4 * a * c) root1 = (-b + discRoot) / (2 * a)
             root2 = (-b - discRoot) / (2 * a)
             print "\nThe solutions are:", root1, root2
+
 
 
 
@@ -183,6 +187,7 @@ range() can be called with two arguments:
 
     range(begin,end)
 
+Example (save it as factorial.py)
 
 ::
 
@@ -196,10 +201,10 @@ range() can be called with two arguments:
 
 ::
 
-    $ factorial.py
+    $ python factorial.py
     Enter any num:6
     Factorial of 6 is:720
-    $ factorial.py
+    $ python factorial.py
     Enter any num:7
     Factorial of 7 is:5040
 
@@ -217,7 +222,7 @@ The syntax of a while loop in Python programming language is:
 ::
 
     while expression:
-    statement(s)
+        statement(s)
 
 
 
@@ -234,12 +239,14 @@ In Python, all the statements indented by the same number of character spaces af
 are considered to be part of a single block of code.
 
 
-Python uses indentation as its method of grouping statements.
+Python uses **indentation** as its method of grouping statements.
 
 
 Here, key point of the while loop is that the loop might not ever run.
 When the condition is tested and the result is false, the loop body will be skipped and the first statement
 after the while loop will be executed.
+
+Example (save it as while-factorial.py)
 
 ::
 

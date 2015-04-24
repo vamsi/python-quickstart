@@ -38,8 +38,8 @@ prompt and waiting for your instructions.
 .. code-block:: python
 
     $ python
-    Python 2.7.1 (r271:86832, Mar 17 2011, 07:02:35)
-    [GCC 4.2.1 (Apple Inc. build 5664)] on darwin
+    Python 2.7.6 (default, Apr 24 2015, 09:38:35)
+    [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.39)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
 
@@ -106,13 +106,10 @@ The assignment statement in the simplest form has the syntax:
 
 Indentation
 -----------
-Python forces the user to program in a structured format.
+Python forces the user to program in a structured format.Code blocks are determined by the amount of indentation used.
 
 
-Code blocks are determined by the amount of indentation used.
+As you’ll recall from the comparison of programming languages chapter, brackets and semicolons were used to show code grouping or end-of-line termination for the other languages.
 
 
-As you’ll recall from the Comparison of Programming Languages chapter, brackets and semicolons were used to show code grouping or end-of-line termination for the other languages.
-
-
-Python doesn’t require those; indentation is used to signify where each code block starts and ends.
+Python doesn’t require those,**indentation** is used to signify where each code block starts and ends.

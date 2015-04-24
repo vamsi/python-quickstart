@@ -79,10 +79,14 @@ Output
     Guess the use of single Quotes and Double Quotes
 
 
-Slice , len
+slice , len()
 ~~~~~~~~~~~~~~~~~~
 
 The handy "slice" syntax (below) also works to extract any substring from a string.
+
+::
+
+    var[begin:end]
 
 The len(string) function returns the length of a string.
 
@@ -92,6 +96,8 @@ The ``[ ]`` syntax and the ``len()`` function actually work on any sequence type
 Example (save it as string_access.py)
 
 ::
+
+    x='Hello World'
 
     #prints only the character at 0th(First) location
     print x[0]
@@ -126,17 +132,19 @@ Output
 
 Lists
 ------
+
 The most basic data structure in Python is the sequence.Each element of a sequence is assigned a number - its position or index.
 The first index is zero, the second index is one,and so forth.
 
 
-The list is a most versatile datatype available in Python.
+The list is a most versatile datatype available in Python.The list of items should be enclosed in square brackets ``[]`` so that Python understands that you are specifying a list.The items in the list should be seperated by comma.The "empty list" is just an empty pair of brackets ``[ ]``.
 
+.. note::
 
-The list of items should be enclosed in square brackets[] so that Python understands that you are specifying a list.The items in the list should be seperated by comma.The "empty list" is just an empty pair of brackets [ ].
+    Good thing about a list is that items in a list need not all have the same type.
+    ::
 
-
-Good thing about a list is that items in a list need not all have the same type.
+        list = ["Hello",1,True,False]
 
 
 Once you have created a list, you can add, remove or search for items in the list.Since we can add and remove items, we say that a list is a "mutable" data type i.e. this type can be altered.
@@ -186,28 +194,23 @@ Example (save it as list_access.py)
     print(len(fruits))
     print(len(vegtables))
 
-
+Method
+~~~~~~
 
 Tuples
 ------
-Tuples are sequences, just like lists.
-
-
-The only difference is that tuples can't be changed i.e., tuples are immutable and tuples use parentheses
+Tuples are sequences, just like lists.The only difference is that tuples can't be changed i.e., tuples are immutable and tuples use parentheses
 whereas lists are mutable and use square brackets.
 
 
-Creating a tuple is as simple as putting different comma-separated values and optionally you can put these comma-separated values between parentheses also.
-
-
-Tuples are pretty easy to make. You give your tuple a name, then after that the list of values it will carry.
+Creating a tuple is as simple as putting different comma-separated values and optionally you can put these comma-separated values between parentheses also.Tuples are pretty easy to make. You give your tuple a name, then after that the list of values it will carry.
 
 
 We can access the items in the tuple by specifying the item’s position within a pair of square brackets just like we did for lists.
 This is called the "indexing operator".
 
 
-For example,here we have created a variable "team" which consists of a tuple of items.
+For example, here we have created a variable "team" which consists of a tuple of items.
 
 
 "len" function can be used to get the length of the tuple. This also indicates that a tuple is a "sequence" as well.
@@ -215,6 +218,7 @@ For example,here we have created a variable "team" which consists of a tuple of 
 
 Now if we just give the variable name "team" then we will get all the set of elements in tuple.
 
+Example
 ::
 
     # Let This Be Our Tuple
@@ -231,13 +235,13 @@ Now if we just give the variable name "team" then we will get all the set of ele
 
 ::
 
-    #To Acess The 1st Element In The Tuple
+    #To Access The 1st Element In The Tuple
     team[0]
 
-    #To Acess The Last Element In The Tuple
+    #To Access The Last Element In The Tuple
     team[-1]
 
-    #To Acess The Element From 1st Location To 2nd Location
+    #To Access The Element From 1st Location To 2nd Location
     team[1:3]
 
 ::
@@ -249,9 +253,7 @@ Now if we just give the variable name "team" then we will get all the set of ele
 
 Dictionaries
 ------------
-A dictionary is mutable and is another container type that can store any number of Python objects, including
-other container types.
-
+A dictionary is mutable and is another container type that can store any number of Python objects, including other container types.
 
 Dictionaries consist of pairs (called items) of keys and their corresponding values.
 
@@ -282,10 +284,7 @@ enclosed in curly braces.An empty dictionary without any items is written with j
 The values of a dictionary can be of any type, but the keys must be of an immutable data type such as strings,
 numbers, or tuples.
 
-The main operations on a dictionary are storing a value with some key and extracting the value given the key.It is also possible to delete a key:value pair with del.If you store using a key that is already in use, the old value associated with that key is forgotten.
-
-
-It is an error to extract a value using a non-existent key.
+The main operations on a dictionary are storing a value with some key and extracting the value given the key.It is also possible to delete a key:value pair with del.If you store using a key that is already in use, the old value associated with that key is forgotten.It is an error to extract a value using a non-existent key.
 
 
 The keys() method of a dictionary object returns a list of all the keys used in the dictionary,
@@ -318,7 +317,3 @@ When the above code is executed, it produces the following result:
 
     dict['Name']:  Zara
     dict['Age']:  7
-
-
-Files
------
