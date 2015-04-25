@@ -105,9 +105,12 @@ Output
 
 As we already dealt with some Simple decision and Two way decision This example shows the way for the Multiway decision handling in Python
 
+Main Function
+~~~~~~~~~~~~~
+
+Example (save it as quadratic.py)
 ::
 
-    # quadratic4.py
     import math
 
     def main():
@@ -124,6 +127,20 @@ As we already dealt with some Simple decision and Two way decision This example 
             root2 = (-b - discRoot) / (2 * a)
             print "\nThe solutions are:", root1, root2
 
+    if __name__ == "__main__":
+        main()
+
+
+Output
+
+::
+
+    $ python quadratic.py
+    This program finds the real solutions to a quadratic
+
+    Please enter the coefficients (a, b, c): 5,6,4
+
+    The equation has no real roots!
 
 
 

@@ -88,7 +88,7 @@ Find all other Installing Instruction details at https://pip.pypa.io/en/latest/i
 
 Now when you are done with pip
 
-Go to command promt/temminal and say ``pip install <package_name>``
+Go to command promt/terminal and say ``pip install <package_name>``
 
 .. warning::
 

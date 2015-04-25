@@ -194,8 +194,8 @@ Example (save it as list_access.py)
     print(len(fruits))
     print(len(vegtables))
 
-Method
-~~~~~~
+Methods
+~~~~~~~
 
 Tuples
 ------

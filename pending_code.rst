@@ -39,7 +39,7 @@ Super() And Constructor
 
 ::
 
-    $python Super1.py
+    $python super1.py
     init of A
 
     init of B

@@ -2,7 +2,7 @@
     :linenothreshold: 0
 
 
-Explore Python
+PyQuick
 ==============
 
 Table of Contents
@@ -23,7 +23,7 @@ Table of Contents
 Thanks
 ~~~~~~
 
-First of all, I’d like to say thanks two people. When I started this book I was alone. As a part of the python users group activity we were flying across various places to meet people. There I met a few people interestingly. After a period of time out of those few, two people who were unknown to me came forward and helped me in writing drafts and code samples for this miniature. And after all those two people Prasanthi and Sindhu were now great friends for me. PyQuick wouldn’t be happening if their support lacks. I’m looking forward to work with them to manage the project into the future. 
+First of all, I’d like to say thanks two people. When I started this book I was alone. As a part of the python users group activity we were flying across various places to meet people. There I met a few people interestingly. After a period of time out of those few, two people who were unknown to me came forward and helped me in writing drafts and code samples for this miniature. And after all those two people Prasanthi and Sindhu were now great friends for me. PyQuick wouldn’t be happening if their support lacks. I’m looking forward to work with them to manage the project into the future.
 
 Another Big Thanks to father, mother and brother who always supported in making my things happen and, being patient with me during late nights.
 

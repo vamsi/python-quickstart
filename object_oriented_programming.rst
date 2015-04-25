@@ -92,6 +92,7 @@ Classes And Objects
 Lets now to understand more about the ``self`` variable and __init__ method (Constructor) by looking at the example below
 
 Example (save it as bank_account.py)
+
 ::
 
     class BankAccount:          # Creating A Class, Object & Consuctor
@@ -115,13 +116,14 @@ Example (save it as bank_account.py)
 
 ::
 
-    $python bank_account.py
+    $ python bank_account.py
     100
     50
     40
     90
 
 Single Inheritance
+~~~~~~~~~~~~~~~~~~
 
 The Inherited class is taken as a argument to the child class.To understand clearly parent class is named ``Parent`` and child class that inherits parent class is named ``Child`` Class.
 
@@ -146,11 +148,12 @@ Example (save it as SingleInheritance.py)
 
 ::
 
-    $python SingleInheritance.py
+    $ python SingleInheritance.py
     Parent, Parent
     Parent, Child
 
 Multiple Inheritance
+~~~~~~~~~~~~~~~~~~~~
 
 This Example illustration the way classes are inherited in Python
 
@@ -183,16 +186,18 @@ Example (save it as MultipleInheritance.py)
 Output
 ::
 
-    $python MultipleInheritance.py
+    $ python MultipleInheritance.py
     m of D called
     m of B called
     m of C called
     m of A called
 
 Super()
+~~~~~~~
 
 Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.
 
+Example (save it as super-illustration.py)
 ::
 
     class A:              # The Method 'm' Of D Should Execute The Code Of 'm' Of B, C and A as well  By Using Super()
@@ -219,7 +224,7 @@ Return a proxy object that delegates method calls to a parent or sibling class o
 
 ::
 
-    $python Super.py
+    $ python super-illustration.py
     m of D called
     m of C called
     m of B called
@@ -257,6 +262,7 @@ Example (save it as exception.py)
 
 
 Output
+
 ::
 
     $python exception.py
@@ -266,7 +272,7 @@ Output
     KeyError: 'd'
 
 
-Now let's Handle the above expections raised in the above examples
+Now let's Handle the above exceptions raised in the above examples
 
 
 Example (save it as indexerror.py)

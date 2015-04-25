@@ -57,8 +57,6 @@ Let us write a Function to add two strings and add two numbers
 ::
 
     # Function Adding Numbers and Concatination of Strings
-
-
     def add(x,y):
         print(x+y)
 
@@ -95,14 +93,14 @@ Example (save it as func-return.py)
         return a / b
 
 
-     print "Let's do some math with just functions!"
+    print "Let's do some math with just functions!"
 
-     age = add(30, 5)
-     height = subtract(78, 4)
-     weight = multiply(90, 2)
-     iq = divide(100, 2)
+    age = add(30, 5)
+    height = subtract(78, 4)
+    weight = multiply(90, 2)
+    iq = divide(100, 2)
 
-     print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
+    print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
 
 ::
 
@@ -122,10 +120,10 @@ Recursion
 One of the finest example to illustrate Recursion in any language is Fibonacci.
 
 Example (save it as fibonacci.py)
+
 ::
 
     # Functions Illustrating Fibonacci
-
     def fibonacci(n):
         if n == 0:
             return 0
