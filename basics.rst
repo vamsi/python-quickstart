@@ -70,13 +70,7 @@ Dynamically Typed
 -----------------
 Python is a dynamic-typed language. Many other languages are static typed, such as C/C++ and Java.
 
-A static typed language requires the programmer to explicitly tell the computer what type of “thing” each data value is.
-
-For example, in C if you had a variable that was to contain the price of something, you would have to declare the variable as a “float” type.
-
-This tells the compiler that the only data that can be used for that variable must be a floating point number, i.e. a number with a decimal point.
-
-If any other data value was assigned to that variable, the compiler would give an error when trying to compile the program.
+A static typed language requires the programmer to explicitly tell the computer what type of “thing” each data value is.For example, in C if you had a variable that was to contain the price of something, you would have to declare the variable as a “float” type.This tells the compiler that the only data that can be used for that variable must be a floating point number, i.e. a number with a decimal point.If any other data value was assigned to that variable, the compiler would give an error when trying to compile the program.
 
 
 Variables
@@ -109,7 +103,53 @@ Indentation
 Python forces the user to program in a structured format.Code blocks are determined by the amount of indentation used.
 
 
-As you’ll recall from the comparison of programming languages chapter, brackets and semicolons were used to show code grouping or end-of-line termination for the other languages.
+As you’ll recall from the comparison of programming languages brackets and semicolons were used to show code grouping or end-of-line termination for the other languages.
 
 
 Python doesn’t require those,**indentation** is used to signify where each code block starts and ends.
+
+
+Print
+~~~~~
+
+Lets now print
+
+Example (save it as printing.py)
+
+::
+
+    print("Hello World !!!")
+    print("Hello !!!")
+    print("Hello Python")
+    print("Welcome")
+
+
+Output
+
+::
+
+    $ python printing.py
+    Hello World !!!
+    Hello !!!
+    Hello Python
+    Welcome
+
+
+Input and Print
+~~~~~~~~~~~~~~~
+
+Example (save it as input.py)
+::
+
+    a = input("Enter something")
+    print("You have entered the below")
+    print(a)
+
+Output
+::
+
+    $ python input.py
+    Enter something
+    234234
+    You have entered the below
+    234234

@@ -84,9 +84,11 @@ Output
     enter any number:54
     The entered number 54 is even
 
+Table Illustrating the syntax for all the Decision Making in Python
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +------------------------+------------------------+------------------------+
-|  Simple Decision       |  Two Way Decision      |  Mutliway Decision     |
+|  Simple Decision       |  Two Way Decision      |  Multiway Decision     |
 +========================+========================+========================+
 |::                      | ::                     | ::                     |
 |                        |                        |                        |

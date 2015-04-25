@@ -197,6 +197,49 @@ Example (save it as list_access.py)
 Methods
 ~~~~~~~
 
+There are lot of builtin methods.Let's see it by Examples
+
+Example(save it as stretch.py)
+::
+
+    a = [98,76,87,45,90,23,65,2,9,20]
+    a.append(4)
+    print(a)
+    a.extend(b)
+    print(a)
+
+Output
+::
+
+    $ python stretch.py
+    [98, 76, 87, 45, 90, 23, 65, 2, 9, 20, 4]
+    [98, 76, 87, 45, 90, 23, 65, 2, 9, 20, 4, 123, 12]
+
+
+
+Example (save it as see.py)
+
+::
+
+    a = [98,76,87,45,90,23,65,2,9,20]
+    print(a.index(87))
+    (a.sort())
+    print(a)
+
+Output
+
+::
+
+    $ python see.py
+    2
+    [2, 9, 20, 23, 45, 65, 76, 87, 90, 98]
+
+
+.. note ::
+
+    To look for, the methods that are existing for a Datatype use the function ``dir``
+    Eg: ``dir(var)``
+
 Tuples
 ------
 Tuples are sequences, just like lists.The only difference is that tuples can't be changed i.e., tuples are immutable and tuples use parentheses
