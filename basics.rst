@@ -78,6 +78,7 @@ Variables
 In Python there are no declarations. The existence of a variable begins with a statement that binds the variable, or, in other words, sets a name to hold a reference to some object.
 
 .. note::
+
     Everything thing is a object in Python
 
 
@@ -91,7 +92,7 @@ Assignment to a variable ``(e.g.,name=value)`` is how you create a new variable 
 
 The assignment statement in the simplest form has the syntax:
 
-::
+.. code-block:: python
 
     target = expression
 
@@ -106,7 +107,7 @@ Python forces the user to program in a structured format.Code blocks are determi
 As you’ll recall from the comparison of programming languages brackets and semicolons were used to show code grouping or end-of-line termination for the other languages.
 
 
-Python doesn’t require those,**indentation** is used to signify where each code block starts and ends.
+Python doesn’t require those, **indentation** is used to signify where each code block starts and ends.
 
 
 Print
@@ -126,7 +127,7 @@ Example (save it as printing.py)
 
 Output
 
-::
+.. code-block:: python
 
     $ python printing.py
     Hello World !!!
@@ -139,6 +140,7 @@ Input and Print
 ~~~~~~~~~~~~~~~
 
 Example (save it as input.py)
+
 ::
 
     a = input("Enter something")
@@ -146,7 +148,8 @@ Example (save it as input.py)
     print(a)
 
 Output
-::
+
+.. code-block:: python
 
     $ python input.py
     Enter something

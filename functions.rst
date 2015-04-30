@@ -102,7 +102,7 @@ Example (save it as func-return.py)
 
     print "Age: %d, Height: %d, Weight: %d, IQ: %d" % (age, height, weight, iq)
 
-::
+.. code-block:: python
 
     $ python func-return.py
     Let's do some math with just functions!

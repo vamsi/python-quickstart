@@ -49,7 +49,7 @@ Example (save it as greaterlesser.py)
 
 Output
 
-::
+.. code-block:: python
 
     $ python greaterlesser.py
     Enter a,b values:54 7
@@ -75,7 +75,7 @@ Example (save it as evenodd.py)
 
 Output
 
-::
+.. code-block:: python
 
     $ python evenodd.py
     enter any number:7
@@ -111,6 +111,7 @@ Main Function
 ~~~~~~~~~~~~~
 
 Example (save it as quadratic.py)
+
 ::
 
     import math
@@ -135,7 +136,7 @@ Example (save it as quadratic.py)
 
 Output
 
-::
+.. code-block:: python
 
     $ python quadratic.py
     This program finds the real solutions to a quadratic
@@ -171,7 +172,7 @@ following sequence object, which is stepped through.
 The general syntax of a "for" loop in "python" is as follows:
 
 
-::
+.. code-block:: python
 
     for variable in sequence:
         statements(s)
@@ -202,7 +203,7 @@ To produce the list with these numbers, we have to cast rang() with the list().
 range() can be called with two arguments:
 
 
-::
+.. code-block:: python
 
     range(begin,end)
 
@@ -218,7 +219,7 @@ Example (save it as factorial.py)
     print "Factorial of",num,"is:",fact
 
 
-::
+.. code-block:: python
 
     $ python factorial.py
     Enter any num:6
@@ -238,7 +239,7 @@ loop will not run n times, but until a defined condition is met.
 
 The syntax of a while loop in Python programming language is:
 
-::
+.. code-block:: python
 
     while expression:
         statement(s)
@@ -258,7 +259,7 @@ In Python, all the statements indented by the same number of character spaces af
 are considered to be part of a single block of code.
 
 
-Python uses **indentation** as its method of grouping statements.
+Python uses ** indentation ** as its method of grouping statements.
 
 
 Here, key point of the while loop is that the loop might not ever run.
@@ -277,7 +278,7 @@ Example (save it as while-factorial.py)
     print(fact)
 
 
-::
+.. code-block:: python
 
     $ python while-factorial.py
     Enter a Number

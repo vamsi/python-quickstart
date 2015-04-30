@@ -15,7 +15,7 @@ A module is imported using the import statement.
 
 Lets import a time module from the standard library
 
-::
+.. code-block:: python
 
     import time
     print time.asctime()
@@ -28,7 +28,7 @@ Lets import a time module from the standard library
 
 You can also do the import the either way
 
-::
+.. code-block:: python
 
     from time import asctime
     print(asctime())
@@ -98,14 +98,14 @@ Go to command promt/terminal and say ``pip install <package_name>``
 
 Lets now install a great package named ``requests`` and see how we can get the content of a website
 
-::
+.. code-block:: python
 
     pip install requests
 
 
 Example (save it as requests.py)
 
-::
+.. code-block:: python
 
     import requests
     response = requests.get('https://api.github.com/events')

@@ -114,7 +114,7 @@ Example (save it as bank_account.py)
     b.withdraw(10)
     a.withdraw(10)
 
-.. code-block:: bash
+.. code-block:: python
 
     $ python bank_account.py
     100
@@ -146,7 +146,7 @@ Example (save it as SingleInheritance.py)
     print c.a(), d.a()
     print c.b(), d.b()
 
-.. code-block:: bash
+.. code-block:: python
 
     $ python SingleInheritance.py
     Parent, Parent
@@ -185,7 +185,7 @@ Example (save it as MultipleInheritance.py)
 
 Output
 
-.. code-block:: bash
+.. code-block:: python
 
     $ python MultipleInheritance.py
     m of D called
@@ -227,9 +227,9 @@ Example (save it as exception.py)
 
 Output
 
-::
+.. code-block:: python
 
-    $python exception.py
+    $ python exception.py
     7
     IndexError: List index out of range
     2
@@ -252,9 +252,10 @@ Example (save it as indexerror.py)
         print("End Of Index Error")
 
 Output
-::
 
-    $python indexerror.py
+.. code-block:: python
+
+    $ python indexerror.py
     list index out of range
     End Of Index Error
 
@@ -271,9 +272,10 @@ Example (save it as keyerror.py)
         print("End Of Key Error")
 
 Output
-::
 
-    $python keyerror.py
+.. code-block:: python
+
+    $ python keyerror.py
     'd'
     End Of Key Error
 

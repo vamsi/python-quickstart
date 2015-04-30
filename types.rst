@@ -12,7 +12,7 @@ Python long integers (max length dependent on available memory), floating point 
 
 Generic C++ example
 
-::
+.. code-block:: python
 
     int a = 3; //inline initialization of integer
     float b; //sequential initialization of floating point number
@@ -22,7 +22,7 @@ Generic C++ example
 
 Generic Python example
 
-::
+.. code-block:: python
 
     a = 3    # Taken as Int
     b = 4.0  # Taken as Float
@@ -66,7 +66,7 @@ Example (save it as strings.py)
 
 Output
 
-::
+.. code-block:: python
 
     $ python strings.py
     Hello World
@@ -84,7 +84,7 @@ slice , len()
 
 The handy "slice" syntax (below) also works to extract any substring from a string.
 
-::
+.. code-block:: python
 
     var[begin:end]
 
@@ -120,7 +120,7 @@ Example (save it as string_access.py)
 
 Output
 
-::
+.. code-block:: python
 
     $ python string_access.py
     H
@@ -165,7 +165,7 @@ Example (save it as lists.py)
     # Printing Our Second List
     print(vegetables)
 
-::
+.. code-block:: python
 
     $ python list.py
     ['Mango','Apple','Banana','Orange']
@@ -173,6 +173,7 @@ Example (save it as lists.py)
 
 
 Example (save it as list_access.py)
+
 ::
 
     # Let this be our First List
@@ -200,6 +201,7 @@ Methods
 There are lot of builtin methods.Let's see it by Examples
 
 Example(save it as stretch.py)
+
 ::
 
     a = [98,76,87,45,90,23,65,2,9,20]
@@ -209,7 +211,8 @@ Example(save it as stretch.py)
     print(a)
 
 Output
-::
+
+.. code-block:: python
 
     $ python stretch.py
     [98, 76, 87, 45, 90, 23, 65, 2, 9, 20, 4]
@@ -228,7 +231,7 @@ Example (save it as see.py)
 
 Output
 
-::
+.. code-block:: python
 
     $ python see.py
     2
@@ -262,32 +265,33 @@ For example, here we have created a variable "team" which consists of a tuple of
 Now if we just give the variable name "team" then we will get all the set of elements in tuple.
 
 Example
+
 ::
 
     # Let This Be Our Tuple
     team = ("Sachin", "Dravid", "Dhoni", "Kohli", "Raina")
 
-    #It Prints All Elements In The Tuple
+    # It Prints All Elements In The Tuple
     print(team)
 
-::
+.. code-block:: python
 
-    $python tuple.py
+    $ python tuple.py
     ('Sachin', 'Dhoni', 'Dravid', 'Kohli', 'Raina')
 
 
 ::
 
-    #To Access The 1st Element In The Tuple
+    # To Access The 1st Element In The Tuple
     team[0]
 
-    #To Access The Last Element In The Tuple
+    # To Access The Last Element In The Tuple
     team[-1]
 
-    #To Access The Element From 1st Location To 2nd Location
+    # To Access The Element From 1st Location To 2nd Location
     team[1:3]
 
-::
+.. code-block:: python
 
     $ python team_access.py
     'Sachin'
@@ -303,7 +307,7 @@ Dictionaries consist of pairs (called items) of keys and their corresponding val
 Python dictionaries are also known as associative arrays or hash tables.
 
 
-::
+.. code-block:: python
 
     The general syntax of a dictionary is as follows:
 
@@ -316,7 +320,7 @@ Python dictionaries are also known as associative arrays or hash tables.
 It contains both the key and value pairs i.e,"Alice" is the key and "2341" is the value and the same is for next values.
 You can create dictionary in the following way as well:
 
-::
+.. code-block:: python
 
     dict1 = { 'abc': 456 };
     dict2 = { 'abc': 123, 98.6: 37 };
@@ -343,9 +347,7 @@ Accessing Values in Dictionary:
 To access dictionary elements, you can use the familiar square brackets along with the key to obtain its value.
 Following is a simple example:
 
-::
-
-    #!/usr/bin/python
+.. code-block:: python
 
     dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'};
 
@@ -356,7 +358,7 @@ Following is a simple example:
 
 When the above code is executed, it produces the following result:
 
-::
+.. code-block:: python
 
     dict['Name']:  Zara
     dict['Age']:  7
