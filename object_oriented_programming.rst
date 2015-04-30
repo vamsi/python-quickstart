@@ -192,43 +192,6 @@ Output
     m of C called
     m of A called
 
-Super()
-~~~~~~~
-
-Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.
-
-Example (save it as super-illustration.py)
-::
-
-    class A:              # The Method 'm' Of D Should Execute The Code Of 'm' Of B, C and A as well  By Using Super()
-        def m(self):
-            print("m of A called")
-
-    class B(A):
-        def m(self):
-            print("m of B called")
-            super().m()
-
-    class C(A):
-        def m(self):
-            print("m of C called")
-            super().m()
-
-    class D(C,B):
-        def m(self):
-            print("m of D called")
-            super().m()
-
-    x = D()
-    x.m()
-
-::
-
-    $ python super-illustration.py
-    m of D called
-    m of C called
-    m of B called
-    m of A called
 
 
 Exception Handling
