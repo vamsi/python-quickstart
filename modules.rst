@@ -54,7 +54,7 @@ Example (save the files as sqcube.py)
 
 Now open up your interpreter and say import sqcube and use the functions in the modules
 
-::
+.. code-block:: python
 
     $ python
     >>> import sqcube

@@ -114,7 +114,7 @@ Example (save it as bank_account.py)
     b.withdraw(10)
     a.withdraw(10)
 
-::
+.. code-block:: bash
 
     $ python bank_account.py
     100
@@ -146,7 +146,7 @@ Example (save it as SingleInheritance.py)
     print c.a(), d.a()
     print c.b(), d.b()
 
-::
+.. code-block:: bash
 
     $ python SingleInheritance.py
     Parent, Parent
@@ -184,7 +184,8 @@ Example (save it as MultipleInheritance.py)
     x.m()
 
 Output
-::
+
+.. code-block:: bash
 
     $ python MultipleInheritance.py
     m of D called
