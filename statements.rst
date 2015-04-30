@@ -90,7 +90,7 @@ Table Illustrating the syntax for all the Decision Making in Python
 +------------------------+------------------------+------------------------+
 |  Simple Decision       |  Two Way Decision      |  Multiway Decision     |
 +========================+========================+========================+
-|::                      | ::                     | ::                     |
+|.. code-block:: python  |.. code-block:: python  |.. code-block:: python  |
 |                        |                        |                        |
 |    if <condition>:     |    if <condition>:     |     if <condition1>:   |
 |        <statements>    |        <statements>    |         <stametemts>   |
