@@ -142,6 +142,7 @@ The list is a most versatile datatype available in Python.The list of items shou
 .. note::
 
     Good thing about a list is that items in a list need not all have the same type.
+
     .. code-block:: python
 
         list = ["Hello",1,True,False]
