@@ -5,7 +5,7 @@
 PyQuick
 ==============
 
-Table of Contents
+Contents
 ------------------
 
 .. toctree::
