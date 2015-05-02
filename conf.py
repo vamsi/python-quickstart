@@ -230,7 +230,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'PyQuick MINI.tex', u'PyQuick MINI Documentation',
+  (master_doc, 'PyQuickMINI.tex', u'PyQuick MINI Documentation',
    u'Vamsi Kurama', 'manual'),
 ]
 
