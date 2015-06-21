@@ -5,15 +5,11 @@
 Functions
 =========
 
-A Function
-
-Function is small unit of computation which may take arguments and may return values.
+Function is small unit of computation which may take arguments and may return values. Function body should be **indented** like if statement. Python has lot of builtin functions.
 
 
-Function body should be **indented** like if statement.
+The keyword def introduces a function definition. It must be followed by the function name and the parenthesized list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
 
-
-Python has lot of builtin functions.
 
 We use def keyword to define a function. General syntax is like
 
@@ -27,6 +23,7 @@ We use def keyword to define a function. General syntax is like
 
 Simple Python Functions Illustrations
 -------------------------------------
+
 
 Simple Python Function taking no arguments
 
@@ -65,6 +62,27 @@ Let us write a Function to add two strings and add two numbers
     add(3,5) # Add Function is Two Numbers Here
 
 Output
+
+.. code-block:: python
+
+    helloworld
+    8
+
+Function with Default Arguments
+--------------------------------
+
+Example (save it as func-default.py)
+
+::
+
+    pass
+
+
+
+
+.. code-block:: python
+
+    pass
 
 
 Functions Returning Values
@@ -111,6 +129,45 @@ Example (save it as func-return.py)
     MULTIPLYING 90 * 2
     DIVIDING 100 / 2
     Age: 35, Height: 74, Weight: 180, IQ: 50
+
+
+Main Function
+~~~~~~~~~~~~~
+
+Example (save it as quadratic.py)
+
+::
+
+    import math
+
+    def main():
+        print "This program finds the real solutions to a quadratic\n"
+        a, b, c = input("Please enter the coefficients (a, b, c): ")
+        discrim = b * b - 4 * a * c
+        if discrim < 0:
+            print "\nThe equation has no real roots!"
+        elif discrim == 0:
+            root = -b / (2 * a)
+            print "\nThere is a double root at", root
+        else:
+            discRoot = math.sqrt(b * b - 4 * a * c) root1 = (-b + discRoot) / (2 * a)
+            root2 = (-b - discRoot) / (2 * a)
+            print "\nThe solutions are:", root1, root2
+
+    if __name__ == "__main__":
+        main()
+
+
+Output
+
+.. code-block:: python
+
+    $ python quadratic.py
+    This program finds the real solutions to a quadratic
+
+    Please enter the coefficients (a, b, c): 5,6,4
+
+    The equation has no real roots!
 
 
 

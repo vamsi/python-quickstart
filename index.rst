@@ -13,7 +13,7 @@ Contents
 
    basics
    types
-   statements
+   control
    functions
    modules
    object_oriented_programming

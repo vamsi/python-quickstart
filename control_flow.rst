@@ -1,12 +1,11 @@
 .. highlight:: python
     :linenothreshold: 0
 
-Statements
-==========
+Control Flow
+============
 
 
 Table for Quick Glance of Conditional and Control Flow Statements
-
 
 
 +--------------------------+-------------------------+
@@ -33,7 +32,7 @@ if Tests:
 
 One of the most common control structures you’ll use, and run into in other programs, is the if conditional block. Simply put, you ask a yes or no question; depending on the answer different things happen.
 
-Let’s start by getting the computer to make a simple decision. For an easy example,we make a program to find the largest of two numbers
+Let’s start by getting the computer to make a simple decision. For an easy example, we will make a program to find the largest of two numbers
 
 
 Example (save it as greaterlesser.py)
@@ -107,46 +106,6 @@ Table Illustrating the syntax for all the Decision Making in Python
 
 As we already dealt with some Simple decision and Two way decision This example shows the way for the Multiway decision handling in Python
 
-Main Function
-~~~~~~~~~~~~~
-
-Example (save it as quadratic.py)
-
-::
-
-    import math
-
-    def main():
-        print "This program finds the real solutions to a quadratic\n"
-        a, b, c = input("Please enter the coefficients (a, b, c): ")
-        discrim = b * b - 4 * a * c
-        if discrim < 0:
-            print "\nThe equation has no real roots!"
-        elif discrim == 0:
-            root = -b / (2 * a)
-            print "\nThere is a double root at", root
-        else:
-            discRoot = math.sqrt(b * b - 4 * a * c) root1 = (-b + discRoot) / (2 * a)
-            root2 = (-b - discRoot) / (2 * a)
-            print "\nThe solutions are:", root1, root2
-
-    if __name__ == "__main__":
-        main()
-
-
-Output
-
-.. code-block:: python
-
-    $ python quadratic.py
-    This program finds the real solutions to a quadratic
-
-    Please enter the coefficients (a, b, c): 5,6,4
-
-    The equation has no real roots!
-
-
-
 
 Looping
 -------
@@ -155,7 +114,7 @@ for loop in "python":
 ~~~~~~~~~~~~~~~~~~~~~
 
 
-The "for" statement in Python differs a bit from what you may be used to in C.
+The `for` statement in Python differs a bit from what you may be used to in C.
 Rather than always iterating over an arithmetic progression of numbers (like in Pascal), or giving the user
 the ability to define both the iteration step and halting condition (as C),the for loop in python works a bit different.
 
@@ -285,15 +244,88 @@ Example (save it as while-factorial.py)
     5
     125
 
+break
+~~~~~
+
+The break statement is used to break out of a loop statement i.e. stop the execution of a looping statement, even if the loop condition has not become False or the sequence of items has not been completely iterated over.
+
+An important note is that if you break out of a for or while loop, any corresponding loop else block is not executed.
+
+Example (save as break.py):
+
+::
+
+    while True:
+        s = raw_input('Enter something : ')
+        if s == 'quit':
+            break
+        print 'Length of the string is', len(s)
+    print 'Done'
+
+Output:
+
+.. code-block:: python
+
+    $ python break.py
+    Enter something : Programming is fun
+    Length of the string is 18
+    Enter something : When the work is done
+    Length of the string is 21
+    Enter something : if you wanna make your work also fun:
+    Length of the string is 37
+    Enter something : use Python!
+    Length of the string is 11
+    Enter something : quit
+    Done
 
 
-The Infinite Loop:
-~~~~~~~~~~~~~~~~~~
 
-A loop becomes infinite loop if a condition never becomes false.
-You must use caution when using while loops because of the possibility that this condition never resolves to a false value.
-This results in a loop that never ends.
-Such a loop is called an infinite loop.
+continue
+~~~~~~~~
+The continue statement is used to tell Python to skip the rest of the statements in the current loop block and to continue to the next iteration of the loop.
 
-An infinite loop might be useful in client/server programming where the server needs to run continuously
-so that client programs can communicate with it as and when required.
+Example (save as continue.py):
+
+::
+
+    while True:
+        s = raw_input('Enter something : ')
+        if s == 'quit':
+            break
+    if len(s) < 3:
+        print 'Too small'
+        continue
+    print 'Input is of sufficient length'
+    # Do other kinds of processing here...
+Output:
+
+::
+$ python continue.py
+Enter something : a
+Too small
+Enter something : 12
+Too small
+Enter something : abc
+Input is of sufficient length
+Enter something : quit
+
+
+pass
+~~~~
+
+pass is a null operation. when it is executed, nothing happens. It is useful as a placeholder when a statement is required syntactically, but no code needs to be executed,
+
+For example:
+
+::
+
+    def f(arg):    # a function that does nothing (yet exists)
+        pass
+
+::
+
+    class C:
+        pass       # a class with no methods (yet exists)
+
+    class A(ABSDBASBD,IAUSDBDBD):
+        pass

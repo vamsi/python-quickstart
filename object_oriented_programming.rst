@@ -49,7 +49,7 @@ Extending the plot further lets us create two method ``hello`` , ``bye`` taking 
             print("Nice Meeting You %s"%(self.name))
 
     jackman = Person()
-    jackman.say("lee")
+    jackman.hello("lee")
     jackman.bye("edison")
 
 .. note ::
@@ -67,7 +67,7 @@ Constructors
 The Constructors in Python are written under a special method ``__init__``.
 
 
-So lets now write a constructor for an object. In this example lets create a Object with instance variables name, year_of_birth.This process of writing a constructor in a class eliminates the repeating of instance variables for every instance method.
+now write a constructor for an object. In this example lets create a Object with instance variables name, year_of_birth.This process of writing a constructor in a class eliminates the repeating of instance variables for every instance method.
 
 ::
 
@@ -89,7 +89,7 @@ So lets now write a constructor for an object. In this example lets create a Obj
 Classes And Objects
 
 
-Lets now to understand more about the ``self`` variable and __init__ method (Constructor) by looking at the example below
+Let's now to understand more about the ``self`` variable and __init__ method (Constructor) by looking at the example below
 
 Example (save it as bank_account.py)
 
