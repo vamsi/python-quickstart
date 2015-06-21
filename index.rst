@@ -13,7 +13,7 @@ Contents
 
    basics
    types
-   control
+   control_flow
    functions
    modules
    object_oriented_programming
