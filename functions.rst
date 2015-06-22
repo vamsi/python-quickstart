@@ -13,6 +13,8 @@ The keyword def introduces a function definition. It must be followed by the fun
 
 We use def keyword to define a function. General syntax is like
 
+The argument, params, doesn't specify a datatype. In Python, variables are never explicitly typed. Python figures out what type a variable is and keeps track of it internally.
+
 ::
 
     def functionname(params):

@@ -297,17 +297,19 @@ Example (save as continue.py):
         continue
     print 'Input is of sufficient length'
     # Do other kinds of processing here...
+
 Output:
 
 ::
-$ python continue.py
-Enter something : a
-Too small
-Enter something : 12
-Too small
-Enter something : abc
-Input is of sufficient length
-Enter something : quit
+
+    $ python continue.py
+    Enter something : a
+    Too small
+    Enter something : 12
+    Too small
+    Enter something : abc
+    Input is of sufficient length
+    Enter something : quit
 
 
 pass

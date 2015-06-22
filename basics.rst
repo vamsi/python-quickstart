@@ -117,6 +117,7 @@ This means that statements which go together must have the same indentation. Eac
 One thing you should remember is that wrong indentation can give rise to errors. For example:
 
 Example(indent.py)
+
 ::
 
     i = 5
@@ -150,6 +151,7 @@ Let's now output some variables by assigning them some values and with some stri
 Example (save it as printing.py)
 
 ::
+
     i = 999
     p = "PyQuick"
     print(i)
