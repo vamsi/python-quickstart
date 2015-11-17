@@ -66,7 +66,7 @@ Super()
 
 Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.
 
-Example (save it as super-illustration.py)
+Example (save it as ``super-illustration.py``)
 ::
 
     class A:              # The Method 'm' Of D Should Execute The Code Of 'm' Of B, C and A as well  By Using Super()

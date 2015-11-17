@@ -70,7 +70,13 @@ Dynamically Typed
 -----------------
 Python is a dynamic-typed language. Many other languages are static typed, such as C/C++ and Java.
 
-A static typed language requires the programmer to explicitly tell the computer what type of “thing” each data value is.For example, in C if you had a variable that was to contain the price of something, you would have to declare the variable as a “float” type.This tells the compiler that the only data that can be used for that variable must be a floating point number, i.e. a number with a decimal point.If any other data value was assigned to that variable, the compiler would give an error when trying to compile the program.
+A static typed language requires the programmer to explicitly tell the computer
+what type of “thing” each data value is. For example, in C if you had a variable
+that was to contain the price of something, you would have to declare the variable
+as a “float” type. This tells the compiler that the only data that can be used for
+that variable must be a floating point number, i.e. a number with a decimal point.
+If any other data value was assigned to that variable, the compiler would give an
+error when trying to compile the program.
 
 
 Variables
@@ -116,7 +122,7 @@ Whitespace is important in Python. Actually, whitespace at the beginning of the 
 This means that statements which go together must have the same indentation. Each such set of statements is called a block.
 One thing you should remember is that wrong indentation can give rise to errors. For example:
 
-Example(indent.py)
+Example(``indent.py``)
 
 ::
 
@@ -148,7 +154,7 @@ Printing Output
 
 Let's now output some variables by assigning them some values and with some strings
 
-Example (save it as printing.py)
+Example (save it as ``printing.py``)
 
 ::
 
@@ -181,7 +187,7 @@ Input and Output
 There will be situations where your program has to interact with the user. For example, you would want to take input from the user and then print some results back. We can achieve this using the raw_input() function and print statement respectively.
 
 
-Example (save it as input.py)
+Example (save it as ``input.py``)
 
 ::
 

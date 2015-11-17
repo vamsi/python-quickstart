@@ -41,7 +41,7 @@ Writing Own Modules
 
 Lets now create a simple Module that calculates the square,cube of a number
 
-Example (save the files as sqcube.py)
+Example (save the files as ``sqcube.py``)
 
 ::
 
@@ -103,7 +103,7 @@ Lets now install a great package named ``requests`` and see how we can get the c
     pip install requests
 
 
-Example (save it as requests.py)
+Example (save it as ``requests.py``)
 
 .. code-block:: python
 

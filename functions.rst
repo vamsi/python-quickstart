@@ -73,7 +73,7 @@ Output
 Function with Default Arguments
 --------------------------------
 
-Example (save it as func-default.py)
+Example (save it as ``func-default.py``)
 
 ::
 
@@ -92,7 +92,7 @@ Functions Returning Values
 
 This illustration shows how various function in the Python script and how returned objects are assigned to variable
 
-Example (save it as func-return.py)
+Example (save it as ``func-return.py``)
 
 ::
 
@@ -136,7 +136,7 @@ Example (save it as func-return.py)
 Main Function
 ~~~~~~~~~~~~~
 
-Example (save it as quadratic.py)
+Example (save it as ``quadratic.py``)
 
 ::
 
@@ -178,7 +178,7 @@ Recursion
 
 One of the finest example to illustrate Recursion in any language is Fibonacci.
 
-Example (save it as fibonacci.py)
+Example (save it as ``fibonacci.py``)
 
 ::
 

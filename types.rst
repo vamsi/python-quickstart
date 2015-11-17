@@ -48,7 +48,7 @@ Python uses zero-based indexing, so if str is 'hello' str[1] is 'e'.
 
 If the index is out of bounds for the string, Python raises an error.
 
-Example (save it as strings.py)
+Example (save it as ``strings.py``)
 
 ::
 
@@ -93,7 +93,7 @@ The len(string) function returns the length of a string.
 The ``[ ]`` syntax and the ``len()`` function actually work on any sequence type -- strings, lists, etc
 
 
-Example (save it as string_access.py)
+Example (save it as ``string_access.py``)
 
 ::
 
@@ -151,7 +151,7 @@ The list is a most versatile datatype available in Python.The list of items shou
 Once you have created a list, you can add, remove or search for items in the list.Since we can add and remove items, we say that a list is a "mutable" data type i.e. this type can be altered.
 
 
-Example (save it as lists.py)
+Example (save it as ``lists.py``)
 ::
 
     # Let this be our First List
@@ -173,7 +173,7 @@ Example (save it as lists.py)
     ['Brinjal','Potato','Cucumber','Cabbage','Peas']
 
 
-Example (save it as list_access.py)
+Example (save it as ``list_access.py``)
 
 ::
 
@@ -201,7 +201,7 @@ Methods
 
 There are lot of builtin methods.Let's see it by Examples
 
-Example(save it as stretch.py)
+Example(save it as ``stretch.py``)
 
 ::
 
@@ -221,7 +221,7 @@ Output
 
 
 
-Example (save it as see.py)
+Example (save it as ``see.py``)
 
 ::
 

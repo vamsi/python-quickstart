@@ -35,7 +35,7 @@ One of the most common control structures you’ll use, and run into in other pr
 Let’s start by getting the computer to make a simple decision. For an easy example, we will make a program to find the largest of two numbers
 
 
-Example (save it as greaterlesser.py)
+Example (save it as ``greaterlesser.py``)
 
 ::
 
@@ -57,7 +57,7 @@ Output
     Enter a,b values:6 27
     The largest number is 27
 
-Example (save it as evenodd.py)
+Example (save it as ``evenodd.py``)
 
 ::
 
@@ -166,7 +166,7 @@ range() can be called with two arguments:
 
     range(begin,end)
 
-Example (save it as factorial.py)
+Example (save it as ``factorial.py``)
 
 ::
 
@@ -225,7 +225,7 @@ Here, key point of the while loop is that the loop might not ever run.
 When the condition is tested and the result is false, the loop body will be skipped and the first statement
 after the while loop will be executed.
 
-Example (save it as while-factorial.py)
+Example (save it as ``while-factorial.py``)
 
 ::
 
@@ -251,7 +251,7 @@ The break statement is used to break out of a loop statement i.e. stop the execu
 
 An important note is that if you break out of a for or while loop, any corresponding loop else block is not executed.
 
-Example (save as break.py):
+Example (save as ``break.py``):
 
 ::
 
@@ -284,7 +284,7 @@ continue
 ~~~~~~~~
 The continue statement is used to tell Python to skip the rest of the statements in the current loop block and to continue to the next iteration of the loop.
 
-Example (save as continue.py):
+Example (save as ``continue.py``):
 
 ::
 
