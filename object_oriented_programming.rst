@@ -91,7 +91,7 @@ Classes And Objects
 
 Let's now to understand more about the ``self`` variable and __init__ method (Constructor) by looking at the example below
 
-Example (save it as bank_account.py)
+Example (save it as ``bank_account.py``)
 
 ::
 
@@ -127,7 +127,7 @@ Single Inheritance
 
 The Inherited class is taken as a argument to the child class.To understand clearly parent class is named ``Parent`` and child class that inherits parent class is named ``Child`` Class.
 
-Example (save it as SingleInheritance.py)
+Example (save it as ``SingleInheritance.py``)
 ::
 
     class Parent():
@@ -157,7 +157,7 @@ Multiple Inheritance
 
 This Example illustration the way classes are inherited in Python
 
-Example (save it as MultipleInheritance.py)
+Example (save it as ``MultipleInheritance.py``)
 
 ::
 
@@ -204,7 +204,7 @@ Handling Various Exceptions in Python.
 Look at the following code and observe when the Exceptions are raised.
 
 
-Example (save it as exception.py)
+Example (save it as ``exception.py``)
 
 ::
 
@@ -239,7 +239,7 @@ Output
 Now let's Handle the above exceptions raised in the above examples
 
 
-Example (save it as indexerror.py)
+Example (save it as ``indexerror.py``)
 
 ::
 
@@ -260,7 +260,7 @@ Output
     End Of Index Error
 
 
-Example (save it as keyerror.py)
+Example (save it as ``keyerror.py``)
 ::
 
     try:
